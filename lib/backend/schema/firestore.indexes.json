@@ -1,0 +1,276 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "IsArchived",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "IsArchived",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isFood",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isDrink",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "IsArchived",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isMerc",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "IsArchived",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isItem",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "IsArchived",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "IsOthers",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "notification",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sellerRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isOrder",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "reviews",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "productRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rating",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "sellerRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "is_ordered",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "numOfSold",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sellerRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isRejected",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "orderedAt",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "isOrderComplete",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "IsUser",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "UserRole",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "IsActive",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "shopName",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "products",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "IsArchived",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Stock",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "cart",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "addedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userRef",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "orderedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "users",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chat_messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "chat",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

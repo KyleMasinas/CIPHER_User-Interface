@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656684473220",
+    "project_id": "cipher-9f99c",
+    "storage_bucket": "cipher-9f99c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656684473220:android:a6cf3ef97f9e32bf489bd1",
+        "android_client_info": {
+          "package_name": "com.mycompany.cipherclsuinnovativeplatformforentrepreneurialresources"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATmk0a-3iZIM-PgXB_EFkq6deM5Kg1tTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

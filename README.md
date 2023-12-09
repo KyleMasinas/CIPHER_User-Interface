@@ -1,2 +1,7 @@
-# CIPHER_User-Interface
-CLSU Innovative Platform for Honing Entrepreneurial Resources (CIPHER)
+# CIPHER--UserInterface
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
